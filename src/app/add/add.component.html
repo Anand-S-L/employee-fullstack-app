@@ -1,0 +1,42 @@
+
+<app-navbar></app-navbar>
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+            <div class="row g-3">
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                    <label for="" class="form-label">Employee Name</label>
+                    <input [(ngModel)]="employeename" type="text" class="form-control">
+                </div>
+
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                    <label for="" class="form-label">employeecode</label>
+                    <input [(ngModel)]="employeecode" type="text" class="form-control">
+                </div>
+
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                    <label for="" class="form-label">address</label>
+                    <input [(ngModel)]="address"  type="text" class="form-control">
+                </div>
+
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                    <label for="" class="form-label">designation</label>
+                    <input [(ngModel)]="designation"  type="text" class="form-control">
+                </div>
+
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                    <label for="" class="form-label">salary</label>
+                    <input [(ngModel)]="salary" type="number" class="form-control">
+                </div>
+
+
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <button (click)="valueread()"  class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
